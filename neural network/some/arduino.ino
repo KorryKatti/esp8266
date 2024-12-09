@@ -1,5 +1,3 @@
-// without chatgpt , i couldve made it , but not so quick , i mean in C i would make it but in ino ? naah not so fast
-
 #include <math.h>
 
 // Training data (x1 = age, x2 = income, y_true = expected output)
@@ -19,7 +17,6 @@ const float learningRate = 0.1; // Learning rate (eta)
 float sigmoid(float x) {
     return 1.0 / (1.0 + exp(-x));
 }
-
 
 // Derivative of sigmoid function
 float sigmoidDerivative(float x) {
